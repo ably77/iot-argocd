@@ -12,10 +12,10 @@ metadata:
 spec:
   host: consumer-app-myproject.apps.ly-demo.openshiftaws.com
   port:
-    targetPort: https
+    targetPort: http
   subdomain: ""
-  tls:
-    termination: edge
+  #tls:
+    #termination: edge
   to:
     kind: Service
     name: consumer-app
