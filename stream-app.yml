@@ -26,10 +26,10 @@ spec:
               value: "20"
             - name: TEMPERATURE_WINDOW_SIZE
               value: "5"
-          resources:
-            requests:
-              memory: "100Mi"
-              cpu: "100m"
-            limits:
-              memory: "200Mi"
-              cpu: "100m"
+          #resources:
+            #requests:
+              #memory: "100Mi"
+              #cpu: "100m"
+            #limits:
+              #memory: "200Mi"
+              #cpu: "100m"
