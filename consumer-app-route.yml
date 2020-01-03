@@ -12,3 +12,8 @@ spec:
   to:
     kind: Service
     name: consumer-app
+status:
+  ingress:
+    - conditions:
+        - status: 'True'
+          type: Admitted
