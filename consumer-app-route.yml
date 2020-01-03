@@ -7,12 +7,14 @@ metadata:
     name: consumer-app
   name: consumer-app
 spec:
+  host: consumer-app.lydemo.com
   port:
-    targetPort: http
+    targetPort: 8080
   to:
     kind: Service
     name: consumer-app
     weight: 100
+  wildcardPolicy: None
 status:
   ingress:
     - conditions:
