@@ -14,6 +14,8 @@ spec:
   port:
     targetPort: http
   subdomain: ""
+  tls:
+    termination: edge
   to:
     kind: Service
     name: consumer-app
