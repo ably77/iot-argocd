@@ -10,10 +10,10 @@ metadata:
     openshift.io/host.generated: "true"
   creationTimestamp: null
 spec:
-  host: consumer-app.lydemo
+  host: consumer-app.testing.
   port:
     targetPort: http
-  subdomain: ""
+  subdomain: "ly-demo.openshiftaws.com"
   to:
     kind: Service
     name: consumer-app
