@@ -10,7 +10,7 @@ metadata:
     openshift.io/host.generated: "true"
   creationTimestamp: null
 spec:
-  host: iotapp-route-myproject.apps.ly-demo.openshiftaws.com
+  host: iotapp.ly-demo.openshiftaws.com
   port:
     targetPort: http
   subdomain: ""
