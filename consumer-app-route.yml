@@ -6,10 +6,14 @@ metadata:
     app: iot-demo
     name: consumer-app
   name: consumer-app
+  annotations:
+    openshift.io/host.generated: "true"
+  creationTimestamp: null
 spec:
-  host: consumer-app.lydemo.com
+  host: consumer-app.lydemo
   port:
-    targetPort: 8080
+    targetPort: http
+  subdomain: ""
   to:
     kind: Service
     name: consumer-app
