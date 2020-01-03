@@ -7,7 +7,6 @@ metadata:
     name: consumer-app
   name: consumer-app
 spec:
-  host: iot-consumerapp.lydemo.com
   port:
     targetPort: http
   to:
