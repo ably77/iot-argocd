@@ -13,7 +13,6 @@ spec:
   host: consumer-app-myproject.apps.ly-demo.openshiftaws.com
   port:
     targetPort: http
-  subdomain: ""
   to:
     kind: Service
     name: consumer-app
