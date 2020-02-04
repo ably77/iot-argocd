@@ -11,15 +11,12 @@ metadata:
   creationTimestamp: null
 spec:
   host: consumer-app-myproject.apps.ly-demo.openshiftaws.com
-  path: "/main"
   port:
     targetPort: http
   to:
     kind: Service
     name: consumer-app
     weight: 100
-  tls:
-    termination: passthrough
   wildcardPolicy: None
 status:
   ingress:
