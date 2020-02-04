@@ -18,6 +18,8 @@ spec:
     kind: Service
     name: consumer-app
     weight: 100
+  tls:
+    termination: passthrough
   wildcardPolicy: None
 status:
   ingress:
