@@ -11,6 +11,7 @@ metadata:
   creationTimestamp: null
 spec:
   host: consumer-app-myproject.apps.ly-demo.openshiftaws.com
+  path: "/main"
   port:
     targetPort: http
   to:
