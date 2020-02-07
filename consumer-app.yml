@@ -17,7 +17,8 @@ spec:
           image: strimzilab/consumer-app:latest
           env:
             - name: BOOTSTRAP_SERVERS
-              value: "my-cluster-kafka-bootstrap:9094,my-cluster-kafka-1:9094,my-cluster-kafka-2:9094,my-cluster-kafka-3:9094"
+              #value: "my-cluster-kafka-bootstrap:9094"
+              value: "my-cluster-kafka-bootstrap:9094"
             - name: CONSUMER_GROUPID
               value: "consumer-app"
             - name: CONSUMER_TOPIC
