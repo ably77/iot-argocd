@@ -6,5 +6,5 @@ metadata:
     app: iot-demo
     strimzi.io/cluster: my-cluster
 spec:
-  partitions: 1
+  partitions: 3
   replicas: 3
